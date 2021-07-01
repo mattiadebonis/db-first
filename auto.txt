@@ -1,0 +1,25 @@
+Nome tabella: auto
+id = intero - INT - PRIMARY KEY
+marca  = stringa - VARCHAR(100) NOTNULL
+chilometri = intero - INT NOTNULL
+modello = stringa - VARCHAR(200) NOTNULL
+anno = data - DATE(YEAR) NULL
+colore_esterno = stringa - VARCHAR(20) NOTNULL
+rivestimenti = stringa - VARCHAR(20) NOTNULL
+carrozzeria = stringa - VARCHAR(20) NOTNULL
+porte = intero - TINYINT NOTNULL
+posti = intero - TINYINT NOTNULL
+tipo_cambio = stringa - VARCHAR(20) NOTNULL
+marce = intero - TINYINT NOTNULL
+cilindrata = intero - TINYINT NOTNULL
+cilindri = intero - TINYINT NOTNULL
+peso_vuota = intero - TINYINT NOTNULL
+prezzo = intero - TINYINT NOTNULL
+alimentazione = stringa - VARCHAR(20) NOTNULL
+consumo_carburante = stringa - VARCHAR(20) NOTNULL
+emissioni_co2 = stringa - VARCHAR(20) NOTNULL
+classe_emissione = stringa - VARCHAR(20) NOTNULL
+tipo_auto = stringa - VARCHAR(20) NOTNULL
+kylowatt = intero - TINYINT NOTNULL
+cavalli = intero - TINYINT NOTNULL
+prezzo = float - FLOAT(9,2) NOTNULL - DEFAULT 0.00
